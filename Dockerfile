@@ -2,7 +2,7 @@ FROM n8nio/n8n:latest
 
 USER root
 
-# Instalar todas las dependencias necesarias (incluyendo nodejs y npm)
+# Instalar todas las dependencias necesarias
 RUN apk add --no-cache \
     chromium \
     nss \
@@ -24,5 +24,5 @@ RUN npm install puppeteer@latest
 
 EXPOSE 5678
 
-# Usar la ruta completa del comando n8n
-CMD ["/usr/local/bin/n8n", "start"]
+# Usar el comando original del contenedor base (sin ruta específica)
+CMD ["n8n"]
