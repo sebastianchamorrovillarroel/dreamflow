@@ -1,0 +1,13 @@
+{
+  "name": "dreams-automation",
+  "version": "1.0.0",
+  "description": "Automatizaciones para sueños.app con n8n y Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n"
+  },
+  "dependencies": {
+    "n8n": "^1.41.0",
+    "puppeteer": "^22.7.0"
+  }
+}
