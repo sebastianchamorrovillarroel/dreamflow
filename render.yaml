@@ -10,8 +10,8 @@ services:
       - key: N8N_BASIC_AUTH_USER
         value: admin
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: superseguro123
+        value: 336669asd.
       - key: N8N_HOST
-        value: dreams-automation.onrender.com
+        value: dreams-flow.onrender.com
       - key: N8N_PROTOCOL
         value: https
